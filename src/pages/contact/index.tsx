@@ -1,10 +1,8 @@
 import React, { ReactElement } from 'react'
-import { 
-  FaLinkedin, 
+import {  
   FaEnvelope, 
-  FaGithub, 
   FaWhatsapp, 
-  FaTelegram 
+  FaInstagramSquare
 } from 'react-icons/fa'
 
 import ItemContact from '../../components/ItemContact'
@@ -16,32 +14,22 @@ export default function Contact(): ReactElement {
     <StyledContainer>
       <StyledContent>
         <ItemContact 
-          IconFa={FaGithub} 
-          LinkContact="https://github.com/pauloteixeira01"
-          title='github.com/pauloteixeira01' 
-        />
-        <ItemContact 
-          IconFa={FaLinkedin} 
-          LinkContact="https://www.linkedin.com/in/paulo-teixeira-developer/"
-          title='linkedin.com/in/paulo-teixeira-developer/'
-        />
-        <ItemContact 
           IconFa={FaEnvelope} 
-          title='paulo.teixeira541@gmail.com'
+          title='emanuelsousa804@gmail.com'
         />
         <ItemContact 
           IconFa={FaWhatsapp} 
-          LinkContact="https://api.whatsapp.com/send?phone=85986629688&text=Hey! I´m%20from your website!" 
-          title="(85) 98662-9688"
+          LinkContact="https://api.whatsapp.com/send?phone=85996812921&text=Hey! I´m%20from your website!" 
+          title="(85) 996812921"
         />
         <ItemContact 
-          IconFa={FaTelegram} 
-          LinkContact="https://t.me/paulotxjs" 
-          title="(85) 98662-9688"
+          IconFa={FaInstagramSquare} 
+          LinkContact="https://instagram.com/manel_tattoo?igshid=OGQ5ZDc2ODk2ZA==" 
+          title="Manel Tatoo"
         />
       </StyledContent>
       <StyledContainerPhoto>
-        <img src="/profile.png" alt="logo" />
+        <img src="/img2.jpeg" alt="logo" />
       </StyledContainerPhoto>
     </StyledContainer>
   )

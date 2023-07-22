@@ -38,10 +38,10 @@ export default function Header(): ReactElement {
             Home
           </StyledAncora>
           <StyledAncora href="projects" className={activeLink('projects')} onClick={showSiderbar}>
-            Projects
+            Artes
           </StyledAncora>
           <StyledAncora href="contact" className={activeLink('contact')} onClick={showSiderbar}>
-            Contact
+            Contatos
           </StyledAncora>
         </StyledNavLinks>
       </StyledContent>

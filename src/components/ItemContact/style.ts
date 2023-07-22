@@ -30,7 +30,7 @@ export const StyledIcon = styled.div`
 `;
 
 export const StyledLink = styled(Link)`
-  color: white;
+  color: black;
   text-decoration: none;
   pointer-events: painted;
 `;

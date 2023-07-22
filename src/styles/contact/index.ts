@@ -15,7 +15,7 @@ export const StyledContent = styled.div`
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  background-color: black;
+  background-color: #94b4db;
   border-radius: 1rem;
   margin-top: 1rem;
 

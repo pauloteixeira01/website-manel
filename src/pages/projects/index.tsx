@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 
 import {useProjects} from '../../hooks/Projects'
 
-import { StyledContainer, StyledContent, StyledUl, StyledLi } from '../../styles/projects'
+import { StyledContainer, StyledContent, StyledUl, StyledLi, StyledContainerLogo } from '../../styles/projects'
 
 export default function Projects() {
   const {getGitHubAPI, itemsApi} = useProjects()  
@@ -16,7 +16,19 @@ export default function Projects() {
   return (
     <StyledContainer>
      <StyledContent>
-       <StyledUl>
+      <StyledContainerLogo>
+        <img src="/img3.jpeg" alt="logo" /> 
+      </StyledContainerLogo>
+      {/* <StyledContainerLogo>
+        <img src="/img4.jpeg" alt="logo" /> 
+      </StyledContainerLogo>
+      <StyledContainerLogo>
+        <img src="/img5.jpeg" alt="logo" /> 
+      </StyledContainerLogo>
+      <StyledContainerLogo>
+        <img src="/img6.jpeg" alt="logo" /> 
+      </StyledContainerLogo> */}
+       {/* <StyledUl>
         {itemsApi.map(item => (
           <StyledLi key={item.id}>
             <strong>{item.name.toUpperCase()}</strong>
@@ -26,7 +38,7 @@ export default function Projects() {
             </span>
           </StyledLi>
         ))}
-       </StyledUl>
+       </StyledUl> */}
      </StyledContent>
    </StyledContainer>
   )

@@ -5,10 +5,11 @@ export const StyledContainer = styled.div`
   align-items: center;
   justify-content: center;
   height: calc(100vh - 100px);
+  width: 100%;
 `;
 
 export const StyledContent = styled.div`
-  width: 1120px;
+  width: 100%;
   height: 100%;
   justify-content: center;
   display: flex;
@@ -49,5 +50,25 @@ export const StyledLi = styled.li`
 
   @media (max-width: 760px) {
    font-size: 13px;
+  }
+`;
+
+export const StyledContainerLogo = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+  }
+
+  @media (width > 600px) {
+    img {
+      width: 20rem;
+      height: 20rem;
+    }
   }
 `;
